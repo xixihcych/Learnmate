@@ -1,0 +1,45 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Runtime / local data
+*.db
+*.db-journal
+backend/uploads/
+backend/processed/
+backend/knowledge_graphs/
+
+# Models / weights（体积大，勿提交；保留 models/README.md 说明）
+models/*
+!models/README.md
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional local tooling（便携 Node 等）
+.tooling/
