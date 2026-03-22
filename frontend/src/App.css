@@ -1,0 +1,32 @@
+.app-layout {
+  min-height: 100vh;
+  background: transparent !important;
+}
+
+.app-content {
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  background: transparent !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: transparent !important;
+}
+
+/* 防止 AntD Layout/Content 默认背景把全局背景覆盖掉 */
+.ant-layout,
+.ant-layout-content,
+.ant-layout-header {
+  background: transparent !important;
+}
+
+
+
+
+
+
